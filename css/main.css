@@ -1,0 +1,150 @@
+/*global styles */
+
+body {
+	margin:0;
+	padding:0;
+	background: linear-gradient(to right, #FAF5FF, #FFF, #FAF5FF);
+}
+hr {
+	color:transparent;
+	width:320px;
+	height:80px;
+	background-image:url('swirly-line.jpg');
+	background-size:cover;
+}
+/*Header Styles*/
+header {
+	margin:0;
+	height:80px;
+	width:100%;
+	background:#1F5C99 url('flower_on_water.jpg') no-repeat 10%;
+	background-size:cover;
+	text-align:center;
+}
+header h1 {
+	margin:0;
+	padding-top:10px;
+	font-size:70px;
+	font-weight:400;
+	letter-spacing:8px;
+    font-family: 'Pinyon Script', cursive;
+    color:#FF3399;
+    text-shadow: rgb(187, 187, 187) 0px 1px 0px,
+      rgb(181, 181, 181) 0px 2px 0px,
+      rgb(172, 172, 172) 0px 3px 0px,
+      rgb(160, 160, 160) 0px 4px 0px,
+      rgb(145, 145, 145) 0px 5px 0px,
+      rgb(127, 127, 127) 0px 6px 0px,
+      rgba(0, 0, 0, 0.199219) 0px 7px 1px,
+}
+/*Jumbotron slider*/
+#home-jumbotron{
+	text-align:center;
+	padding:10px, 20px;
+}
+#home-jumbotron > .pics {
+	height:450px;
+	width:auto;
+	margin:10px auto;
+}
+.pics img {
+	height:450px;
+	width:100%;
+}
+#home-jumbotron h1 {
+	font-family: 'Pinyon Script', cursive;
+	font-size:50px;
+}
+/*Home page information section*/
+#information {
+	text-align:center;
+	line-height:2.5;
+}
+#information p {
+	font-size:18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#information button {
+	padding:10px;
+	margin-right:20px;
+}
+
+/*footer*/
+footer {
+	margin-top:30px;
+	background:#126c8a;
+	text-align:center;
+}
+footer p {
+	color:white;
+}
+footer a {
+	color:white;
+	text-decoration:underline;
+}
+footer a:hover {
+	color:pink;
+}
+
+/*About page sytles*/
+.about {
+	text-align:center;
+}
+.about h2 {
+	font-family: 'Pinyon Script', cursive;
+	font-size:60px;
+	font-weight:700;
+}
+/*Tabs general styles*/
+.tab-content {
+	text-align:center;
+	line-height:2;
+}
+.tab-content h3 {
+	font-size:50px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.tab-content p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style:italic;
+	font-size:15px;
+}
+/*My Life styles */
+#home img {
+	display:inline;
+	margin-bottom:40px;
+	margin-left:30px;
+	height:250px;
+	width:200px;
+}
+/*Animal Rights */
+#menu1 img {
+	width:60%;
+	height:40%;
+	margin-bottom:40px;
+}
+/*Modeling about */
+#menu2 img {
+	height:40%;
+	width:20%;
+	margin-bottom:40px;
+}
+/*Photo Gallery Styles*/
+.gallery-head {
+	text-align:center;
+}
+#gallery {
+	text-align:center;
+}
+#gallery img {
+	margin:25px 5%;
+	display:inline;
+	height:350px;
+	width:250px;
+	border:5px solid #F5EBFF;
+	border-radius:3px;
+}
+#gallery img:hover {
+	height:360px;
+	width:260px;
+}

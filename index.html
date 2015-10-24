@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kaia Rose Profile</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<!--Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic' rel='stylesheet' type='text/css'>	
+	<!--Custom Styles -->
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<header>
+<div id="wrapper">
+  <h1>Kaia Rose</h1>
+</div>
+</header>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Kaia Rose</a></li>
+      <li><a href="gallery.html">Photo Gallery</a></li>
+      <li><a href="#">Contact My Mommy</a></li>
+    </ul>
+  </div>
+</nav>
+<div id="home-jumbotron" class="container">
+  <div class="jumbotron">
+    <div id="showcase-slider" class="pics"> 
+    <img class="img-responsive" src="img/kaia-young.jpg"> 
+    <img class="img-responsive" src="img/kaia-beach.jpg"> 
+    <img class="img-responsive" src="img/kaia-water.jpg"> 
+    </div> 
+    <h1>Model, Actress, Animal Rights Activist</h1>
+  </div>
+</div>
+<hr>
+<div id="information" class="container-fluid">
+  <div class="col-md-offset-1 col-md-10">
+ 	<p>Kaia Rose Hargitt has been modeling since the day she was born.  She love being infront of the camera and making people smile!<br>
+ 	Kaia has been a top choice for many Go-sees and has modeled for 2 magazines in the last 4 months.<br>
+ 	For more information check out her Gallery and the about Kaia Page and discover how wonderful this Model is on and off the camera!</p>
+ 	<button class="btn btn-md btn-success">Gallery</button>
+ 	<button class="btn btn-md btn-success">About</button>
+  </div>
+</div>
+<footer>
+  <p>Thanks for checking out my page! Feel free to E-mail my mommy at <a href="maito:gnhargitt@gmail.com">GNHargitt@gmail.com</a></p>
+</footer>
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/cycle.js"></script>
+<script>
+$(document).ready(function() {
+	$("#showcase-slider").cycle({
+		fx: 'fade',
+		speed: 300,
+		timeout: 2500})
+});
+</script>
+</body>
+</html>
